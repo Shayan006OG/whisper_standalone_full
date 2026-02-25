@@ -4,8 +4,8 @@ import os
 import uuid
 
 import whisper
-from translation.translator import translate_english
-from tts.eleven_tts import speak
+from whisper_standalone_project.translation.translator import translate_english
+from whisper_standalone_project.tts.eleven_tts import speak
 
 app = FastAPI()
 
