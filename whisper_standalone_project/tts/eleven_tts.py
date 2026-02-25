@@ -3,7 +3,7 @@ import os
 import uuid
 
 # 🔑 PUT YOUR API KEY HERE
-API_KEY = os.getenv("ELEVEN_LABS_API_KEY")
+API_KEY = "sk_487396871cc356036cf44ed68cc8828bea87da24928264d9"
 
 client = ElevenLabs(api_key=API_KEY)
 

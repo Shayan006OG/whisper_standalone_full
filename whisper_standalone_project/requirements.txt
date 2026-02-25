@@ -39,3 +39,10 @@ safetensors>=0.4.0
 packaging>=23.0
 pyyaml>=6.0
 regex>=2023.0
+
+# ==============================
+# Web server dependencies
+
+fastapi
+uvicorn
+python-multipart
